@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shristi Singh | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 40px 10px;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            transition: transform 0.4s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.08);
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #222;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="profile.jpg" alt="Shristi Singh" class="profile-img">
+        <h1>Shristi Singh</h1>
+        <p>Aspiring Software Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Shristi Singh, a passionate and dedicated B.Tech student at 
+            Gautam Buddha University. I enjoy building creative and meaningful software 
+            projects and constantly improving my technical skills. I have a strong 
+            interest in programming, problem-solving, and teamwork. My goal is to 
+            become a skilled software developer who creates impactful applications 
+            while continuously learning and growing in the tech field.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>HTML & CSS</li>
+            <li>Excellent Communication</li>
+            <li>Time Management</li>
+            <li>Stress Handling</li>
+            <li>Hackathon Participation Certificate</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Line Following Car</li>
+            <li>Python Project (Internship)</li>
+            <li>Personal Portfolio Website (GitHub)</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p>10+2 Completed</p>
+        <p>Pursuing B.Tech from Gautam Buddha University</p>
+    </section>
+
+    <!-- Career Goal -->
+    <section id="goal">
+        <h2>Career Goal</h2>
+        <p>
+            My goal is to become a skilled software developer, build powerful coding 
+            projects, enhance my creativity, and focus on continuous self-improvement.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:shristisinhh@gmail.com">shristisinhh@gmail.com</a></p>
+        <p>Instagram: 
+            <a href="https://www.instagram.com/singhshristi_09" target="_blank">
+                singhshristi_09
+            </a>
+        </p>
+        <p>LinkedIn: 
+            <a href="https://www.linkedin.com/in/shristi-singh-b31ba43a8" target="_blank">
+                Shristi Singh
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Shristi Singh | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
